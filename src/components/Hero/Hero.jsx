@@ -41,8 +41,8 @@ export function Hero() {
       <div className="absolute inset-0">
         <img
           ref={imgRef}
-          src="https://picsum.photos/seed/hkgn-hero-innova-road/2000/1400"
-          alt="Toyota Innova Crysta on a Bangalore highway at dusk"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Toyota_Innova_Crysta_2.4_Z_front_right.jpg/1920px-Toyota_Innova_Crysta_2.4_Z_front_right.jpg"
+          alt="Toyota Innova Crysta, part of the HKGN Tours & Travel fleet"
           className="h-[112%] w-full object-cover"
           fetchPriority="high"
         />

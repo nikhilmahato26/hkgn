@@ -8,7 +8,7 @@ export default function ContactPage() {
         eyebrow="Contact"
         title="Let's plan your ride"
         description="Send your trip details and the HKGN team will get back to confirm your booking."
-        image="https://picsum.photos/seed/hkgn-contact-header/1800/700"
+        image="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Vidhana_Soudha_LE.jpg/1920px-Vidhana_Soudha_LE.jpg"
       />
       <ContactSection />
     </>

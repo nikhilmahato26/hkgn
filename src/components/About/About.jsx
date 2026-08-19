@@ -30,8 +30,8 @@ export function About() {
         <Reveal delay={0.1} className="order-1 md:order-2">
           <div className="relative aspect-[4/3] overflow-hidden rounded-2xl">
             <img
-              src="https://picsum.photos/seed/hkgn-about-bangalore-city/1000/800"
-              alt="Bangalore city road, HKGN Tours & Travel service area"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Vidhana_Soudha_LE.jpg/1920px-Vidhana_Soudha_LE.jpg"
+              alt="Vidhana Soudha, Bangalore, HKGN Tours & Travel service area"
               className="h-full w-full object-cover"
               loading="lazy"
             />

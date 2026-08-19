@@ -21,7 +21,7 @@ export function Services() {
           <ServiceCard
             service={byId["airport-transfers"]}
             variant="image"
-            image="https://picsum.photos/seed/hkgn-service-airport/900/700"
+            image="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Kempegowda_International_Airport%2C_Bengaluru_%28Ank_Kumar%2C_Infosys%29_02.jpg/1920px-Kempegowda_International_Airport%2C_Bengaluru_%28Ank_Kumar%2C_Infosys%29_02.jpg"
             span="md:col-span-2"
           />
           <ServiceCard service={byId["outstation-travel"]} variant="flat" />
@@ -33,7 +33,7 @@ export function Services() {
           <ServiceCard
             service={byId["car-rental"]}
             variant="image"
-            image="https://picsum.photos/seed/hkgn-service-carrental/1600/500"
+            image="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/An_urban_road_and_traffic_in_Bangalore_Karnataka_India_April_2014.jpg/1920px-An_urban_road_and_traffic_in_Bangalore_Karnataka_India_April_2014.jpg"
             span="md:col-span-3"
           />
         </RevealGroup>

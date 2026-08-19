@@ -9,7 +9,7 @@ export default function FleetPage() {
         eyebrow="Our Fleet"
         title="A vehicle for every kind of journey"
         description="Sedans for the city, SUVs for the highway, and a Tempo Traveller for the whole group."
-        image="https://picsum.photos/seed/hkgn-fleet-header/1800/700"
+        image="https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Bangalore_Skyline_from_Lal_Bagh.jpg/1920px-Bangalore_Skyline_from_Lal_Bagh.jpg"
       />
       <FleetSection className="py-16 md:py-24" />
       <CTA />

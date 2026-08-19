@@ -5,15 +5,15 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 import { useCases } from "@/data/services";
 import { Reveal } from "@/components/ui/Reveal";
 
-const IMAGE_SEEDS = [
-  "hkgn-usecase-airport",
-  "hkgn-usecase-business",
-  "hkgn-usecase-family",
-  "hkgn-usecase-outstation",
-  "hkgn-usecase-weekend",
-  "hkgn-usecase-sightseeing",
-  "hkgn-usecase-group",
-  "hkgn-usecase-hourly",
+const IMAGES = [
+  "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Kempegowda_International_Airport%2C_Bengaluru_%28Ank_Kumar%2C_Infosys%29_02.jpg/1920px-Kempegowda_International_Airport%2C_Bengaluru_%28Ank_Kumar%2C_Infosys%29_02.jpg",
+  "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/ITPL-Whitefield-Bangalore1.jpg/1920px-ITPL-Whitefield-Bangalore1.jpg",
+  "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Maruti_Suzuki_Ertiga%281%29.jpg/1920px-Maruti_Suzuki_Ertiga%281%29.jpg",
+  "https://upload.wikimedia.org/wikipedia/commons/d/d0/Drone_view_of_a_national_highway_in_India.png",
+  "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Sun_rising_over_a_blanket_of_clouds%2C_Nandi_Hills%2C_Karnataka_%28edit%29.jpg/1920px-Sun_rising_over_a_blanket_of_clouds%2C_Nandi_Hills%2C_Karnataka_%28edit%29.jpg",
+  "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/East_View_From_Cave_Hill_Coorg_Apr24_A7C_10393.jpg/1920px-East_View_From_Cave_Hill_Coorg_Apr24_A7C_10393.jpg",
+  "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Force_Traveller%2C_Leh-Manali_Highway.jpg/1920px-Force_Traveller%2C_Leh-Manali_Highway.jpg",
+  "https://upload.wikimedia.org/wikipedia/commons/e/e7/Maruti_Suzuki_Swift_Dzire_%28cropped%29.jpg",
 ];
 
 export function UseCases() {
@@ -76,7 +76,7 @@ export function UseCases() {
                   className="relative aspect-[3/4] w-[62vw] shrink-0 overflow-hidden rounded-2xl sm:w-[38vw] md:w-[24%] lg:w-[22%]"
                 >
                   <img
-                    src={`https://picsum.photos/seed/${IMAGE_SEEDS[i]}/700/900`}
+                    src={IMAGES[i]}
                     alt={item.title}
                     className="h-full w-full object-cover"
                     loading="lazy"

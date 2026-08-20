@@ -38,11 +38,7 @@ export function Navbar() {
     >
       <nav className="container-page flex h-16 items-center justify-between md:h-[72px]">
         <Link to="/" className="focus-ring flex items-center gap-2.5 rounded-lg" onClick={() => setOpen(false)}>
-          <svg width="34" height="34" viewBox="0 0 64 64" className="shrink-0">
-            <rect width="64" height="64" rx="14" fill="#0B1E3A" />
-            <path d="M32 14 L46 46 H18 Z" fill="none" stroke="#C9A24B" strokeWidth="4" strokeLinejoin="round" />
-            <circle cx="32" cy="34" r="4" fill="#C9A24B" />
-          </svg>
+          <img src="/images/logo.jpg" alt="HKGN Logo" className="shrink-0 h-[38px] w-[38px] rounded-xl object-cover shadow-sm" />
           <span className={`text-[15px] font-bold leading-tight md:text-base ${solid ? "text-navy-900" : "text-white"}`}>
             HKGN Tours <span className="text-gold-500">&</span> Travel
           </span>

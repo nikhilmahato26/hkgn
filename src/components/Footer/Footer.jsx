@@ -17,11 +17,7 @@ export function Footer() {
       <div className="container-page grid grid-cols-1 gap-10 pb-12 sm:grid-cols-2 lg:grid-cols-4 lg:gap-8">
         <div>
           <Link to="/" className="flex items-center gap-2.5">
-            <svg width="32" height="32" viewBox="0 0 64 64">
-              <rect width="64" height="64" rx="14" fill="#C9A24B" />
-              <path d="M32 14 L46 46 H18 Z" fill="none" stroke="#0B1E3A" strokeWidth="4" strokeLinejoin="round" />
-              <circle cx="32" cy="34" r="4" fill="#0B1E3A" />
-            </svg>
+            <img src="/images/logo.jpg" alt="HKGN Logo" className="h-8 w-8 rounded-lg object-cover" />
             <span className="text-base font-bold text-white">HKGN Tours & Travel</span>
           </Link>
           <p className="mt-4 max-w-xs text-sm leading-relaxed">

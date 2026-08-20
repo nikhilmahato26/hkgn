@@ -38,8 +38,8 @@ export function Navbar() {
     >
       <nav className="container-page flex h-16 items-center justify-between md:h-[72px]">
         <Link to="/" className="focus-ring flex items-center gap-2.5 rounded-lg" onClick={() => setOpen(false)}>
-          <img src="/images/logo.jpg" alt="HKGN Logo" className="shrink-0 h-[52px] w-[52px] rounded-xl object-cover shadow-sm" />
-          <span className={`text-[15px] font-bold leading-tight md:text-base ${solid ? "text-navy-900" : "text-white"}`}>
+          <img src="/images/logo.jpg" alt="HKGN Logo" className="shrink-0 h-[72px] w-[72px] md:h-[52px] md:w-[52px] rounded-xl object-cover shadow-sm" />
+          <span className={`text-xl font-black leading-tight md:text-base md:font-bold ${solid ? "text-navy-900" : "text-white"}`}>
             HKGN Tours <span className="text-gold-500">&</span> Travel
           </span>
         </Link>

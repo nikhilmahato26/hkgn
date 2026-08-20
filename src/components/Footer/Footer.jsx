@@ -17,8 +17,8 @@ export function Footer() {
       <div className="container-page grid grid-cols-1 gap-10 pb-12 sm:grid-cols-2 lg:grid-cols-4 lg:gap-8">
         <div>
           <Link to="/" className="flex items-center gap-2.5">
-            <img src="/images/logo.jpg" alt="HKGN Logo" className="h-12 w-12 rounded-lg object-cover" />
-            <span className="text-base font-bold text-white">HKGN Tours & Travel</span>
+            <img src="/images/logo.jpg" alt="HKGN Logo" className="h-20 w-20 md:h-12 md:w-12 rounded-lg object-cover" />
+            <span className="text-xl font-black md:text-base md:font-bold text-white">HKGN Tours & Travel</span>
           </Link>
           <p className="mt-4 max-w-xs text-sm leading-relaxed">
             Convenient transportation and travel solutions from Bangalore, for city and outstation journeys alike.
